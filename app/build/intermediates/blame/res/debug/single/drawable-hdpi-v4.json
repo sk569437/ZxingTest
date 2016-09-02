@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/qr_code_bg.png",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/drawable-hdpi/qr_code_bg.png"
+    },
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/scan_line.png",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/drawable-hdpi/scan_line.png"
+    },
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/shadow.png",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/drawable-hdpi/shadow.png"
+    },
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

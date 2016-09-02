@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b19e7138e454effb8fbcde48b9bbcc8b7b626d3d">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b436bc53679fefe1cbb1c09b6e0b71d0475bdc02/classes.dex" />
+    </item>
+    <item
+        jar="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_2acb67774afc6f1ca58f4cc48e622eca9753fe72/classes.dex" />
+    </item>
+    <item
+        jar="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="81ea4fd915ce9d55c39dce6ee6097ac651843e2d">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1d46607495f0173c6b19363345134b24f5995811/classes.dex" />
+    </item>
+    <item
+        jar="/usr/local/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_b2e56dec223e7f8e6d9234362ee7b0d6fa559b08/classes.dex" />
+    </item>
+    <item
+        jar="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_60fe491bbac0b1507f9cd5463e001eea14e16f4a/classes.dex" />
+    </item>
+    <item
+        jar="/home/sk/AndroidStudioProjects/ZxingTest/app/libs/zxing.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_8ec3c821bfba7350cface0e70e6cf3547baa966f/classes.dex" />
+    </item>
+
+</items>

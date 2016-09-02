@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lcx.qcsh.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <SurfaceView
+        android:id="@+id/capture_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+	
+    <RelativeLayout
+        android:id="@+id/capture_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		
+        <TextView
+            android:background="@drawable/shadow"
+            android:layout_below="@+id/mytoolbar"
+            android:id="@+id/capture_mask_top"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:text=""
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/capture_crop_view"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_below="@id/capture_mask_top"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/qr_code_bg" >
+
+            <ImageView
+                android:id="@+id/capture_scan_line"
+                android:layout_width="235dp"
+                android:layout_centerInParent="true"
+                android:layout_height="15dp"
+                android:background="@drawable/scan_line"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:text="请将二维放入框内"
+            android:id="@+id/capture_mask_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/capture_crop_view"
+            android:textColor="@android:color/white"
+            android:paddingTop="32dp"
+            android:background="@drawable/shadow" />
+
+        <ImageView
+            android:id="@+id/capture_mask_left"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/capture_mask_bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/capture_mask_top"
+            android:layout_toLeftOf="@id/capture_crop_view"
+            android:background="@drawable/shadow" />
+
+        <ImageView
+            android:id="@+id/capture_mask_right"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/capture_mask_bottom"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/capture_mask_top"
+            android:layout_toRightOf="@id/capture_crop_view"
+            android:background="@drawable/shadow" />
+    </RelativeLayout>
+    
+    <include 
+	    android:id="@+id/capture_top_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="39dip"
+	    layout="@layout/capture_top_layout"/>
+
+</FrameLayout>

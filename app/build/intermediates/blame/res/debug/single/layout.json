@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/layout/capture_main.xml",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/layout/capture_main.xml"
+    },
+    {
+        "merged": "/home/sk/AndroidStudioProjects/ZxingTest/app/build/intermediates/res/merged/debug/layout/capture_top_layout.xml",
+        "source": "/home/sk/AndroidStudioProjects/ZxingTest/app/src/main/res/layout/capture_top_layout.xml"
+    }
+]
